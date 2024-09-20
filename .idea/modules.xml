@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bedingungen und Operatoren/Bedingungen und Operatoren.iml" filepath="$PROJECT_DIR$/Bedingungen und Operatoren/Bedingungen und Operatoren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bedingungen und Operatoren/IF Bedingungen/IF Bedingungen.iml" filepath="$PROJECT_DIR$/Bedingungen und Operatoren/IF Bedingungen/IF Bedingungen.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaSWP.iml" filepath="$PROJECT_DIR$/.idea/JavaSWP.iml" />
     </modules>
   </component>
