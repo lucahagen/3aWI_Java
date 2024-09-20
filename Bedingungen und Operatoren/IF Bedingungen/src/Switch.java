@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class ControlStructurs3 {
+public class Switch {
 
     public static void main(String[] args) {
 
