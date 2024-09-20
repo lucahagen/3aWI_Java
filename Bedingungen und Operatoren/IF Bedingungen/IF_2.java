@@ -34,7 +34,7 @@ else
 
 // Wenn die erste Zahl kleiner ist als 30 oder die zweite Zahl kleiner ist als 30 
 
-// dann gib aus "Eine der beiden ist kleiner als 30" 
+// dann gib aus "Eine der beiden ist kleiner als 30 ist"
 
 
 
