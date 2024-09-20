@@ -3,5 +3,4 @@ public class Main {
         System.out.println("Hello world!");
     }
     int test = 123;
-    String Hallo = "hallo dies ist ein string";
 }
