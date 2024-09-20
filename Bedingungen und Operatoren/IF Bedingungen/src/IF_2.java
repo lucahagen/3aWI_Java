@@ -1,7 +1,3 @@
-package at.ran.basics;
-
-
-
 import java.util.Random;
 
 
