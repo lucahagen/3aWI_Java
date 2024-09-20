@@ -17,14 +17,14 @@ int randomNumber = random.nextInt( bound: 100);
 Random2 random = new Random2();
 int RandomNumber2 = random2.nextInt( bound: 100);
 // Wenn die erste Zahl kleiner ist als die zweite UND die erste Zahl kleiner ist als 50 
-if(randomNumber<RandomNumber2) && (randomNumber<50) {
+if((randomNumber<RandomNumber2) && (randomNumber<50)) {
             System.out.println("Zahl 1 ist kleiner als Zahl 2 und Mini");
         }
 
 else
         System.out.println(Verloren);
 // dann gib aus "Zahl 1 ist kleiner als Zahl 2 und Mini" 
-        if(randomNumber<30) || (randomNumber2<30) {
+        if((randomNumber<30) || (randomNumber2<30)) {
             System.out.println("Eine der beiden ist kleiner als 30");
         }
 
@@ -39,7 +39,7 @@ else
 
 
 // Wenn die erste Zahl kleiner ist als 50 UND die zweite Zahl ungleich 50 ist 
-        if(randomNumber<t0) && (randomNumber2!=50) {
+        if((randomNumber<t0) && (randomNumber2!=50)) {
             System.out.println("Erste Zahl klein, zweite kein 50iger");
         }
 
