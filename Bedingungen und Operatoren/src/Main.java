@@ -14,4 +14,6 @@ public class Main {
     if(randomNumber>50) && (randomNumber<120){
 
     } else if(randomNumber<10)
+
+
 }
