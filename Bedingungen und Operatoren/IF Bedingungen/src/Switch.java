@@ -24,4 +24,3 @@ public class Switch {
         }
     }
 }
-//funkt noch nicht ganz
