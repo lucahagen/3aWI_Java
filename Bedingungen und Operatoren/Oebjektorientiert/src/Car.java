@@ -6,6 +6,14 @@ public class Car {
     private String color;
     public int tankVolume;
 
+    public Car(int fuelConsumption, String brand, String serialNumber, String color, int tankVolume){
+        this.fuelConsumption = fuelConsumption;
+        this.brand = brand;
+        this.serialNumber = serialNumber;
+        this.color = color;
+        this.tankVolume = tankVolume;
+    }
+
     public void drive() {
         this.fuelAmount -= fuelConsumption;
         System.out.println("I am driving");
