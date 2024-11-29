@@ -1,6 +1,6 @@
 public class RearMirror {
-    private int size;     // Größe des Rückspiegels
-    private int position; // Position des Rückspiegels (z. B. 1 = links, 2 = rechts, 3 = Mitte)
+    private int size;
+    private int position;
 
     public RearMirror(int size, int position) {
         this.size = size;

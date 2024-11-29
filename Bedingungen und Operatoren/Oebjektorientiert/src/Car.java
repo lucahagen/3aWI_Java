@@ -5,6 +5,7 @@ public class Car {
     private int fuelConsumption;
     private int fuelAmount;
     private List<RearMirror> mirrors;
+    private List<Tire> tire;
     private String brand;
     private String serialNumber;
     private String color;
@@ -19,6 +20,15 @@ public class Car {
         this.color = color;
         this.tankVolume = tankVolume;
         this.mirrors = new ArrayList<>();
+        this.tire = new ArrayList<>();
+    }
+
+    public List<Tire> getTire() {
+        return tire;
+    }
+
+    public void setTire(List<Tire> tire) {
+        this.tire = tire;
     }
 
     public void addMirror(RearMirror mirror) {
