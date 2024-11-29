@@ -30,7 +30,8 @@ public class Main {
             }
 
             // Option 2: Abheben
-            if (selection == 2) {
+            if (selection == 2) {1
+
                 System.out.println("Wie viel Geld wollen Sie abheben?");
                 double withdraw = scanner.nextDouble();
                 if (withdraw > 0 && withdraw <= balance) {

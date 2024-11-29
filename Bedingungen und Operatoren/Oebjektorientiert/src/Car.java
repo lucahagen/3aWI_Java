@@ -1,6 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
     private int fuelConsumption;
     private int fuelAmount;
+    private List<RearMirror> mirrors;
     private String brand;
     private String serialNumber;
     private String color;
@@ -14,6 +18,26 @@ public class Car {
         this.serialNumber = serialNumber;
         this.color = color;
         this.tankVolume = tankVolume;
+        this.mirrors = new ArrayList<>();
+    }
+
+    public void addMirror(RearMirror mirror) {
+        mirrors.add(mirror);
+    }
+
+    public void listMirrors() {
+        for (RearMirror mirror : mirrors) {
+            System.out.println(mirror);
+        }
+    }
+
+
+    public List<RearMirror> getMirrors() {
+        return mirrors;
+    }
+
+    public void setMirrors(List<RearMirror> mirrors) {
+        this.mirrors = mirrors;
     }
 
     public void drive() {
@@ -36,12 +60,6 @@ public class Car {
     public void hupe(int amountOfRepetitions) {
         for (int i = 0; i < amountOfRepetitions; i++) {
             System.out.println("Tuuut");
-        }
-    }
-
-    public void remainingRange(int fuelAmount) {
-        if (fuelAmount > tankVolume) {
-            System.out.println(fuelAmount - fuelConsumption);
         }
     }
 
