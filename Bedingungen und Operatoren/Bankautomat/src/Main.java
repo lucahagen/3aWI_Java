@@ -14,7 +14,7 @@ public class Main {
             System.out.println("3: Kontostand anzeigen");
             System.out.println("4: Beenden");
 
-            // Benutzereingabe
+            // Benutzereingabe 
             int selection = scanner.nextInt();
 
             // Option 1: Einzahlen
@@ -30,7 +30,7 @@ public class Main {
             }
 
             // Option 2: Abheben
-            if (selection == 2) {1
+            if (selection == 2) {
 
                 System.out.println("Wie viel Geld wollen Sie abheben?");
                 double withdraw = scanner.nextDouble();
